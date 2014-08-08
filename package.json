@@ -1,0 +1,24 @@
+{
+    "name": "greenpoint",
+    "description": "A persistent shell in the browser with windowing for images, video, audio",
+    "author": "Soumith Chintala",
+    "homepage" : "https://github.com/soumith/greenpoint",
+    "version": "0.0.1",
+    "repository": {
+        "type" : "git",
+        "url"  : "https://github.com/soumith/greenpoint.git"
+    },
+    "bugs" : { "url" : "http://github.com/soumith/greenpoint/issues",
+               "email" : "soumith@gmail.com"
+             },
+    "keywords": ["graphics", "browser", "shell", "terminal"],
+    "license" : "MIT License",
+    "main" : "index.js",
+    "dependencies": {
+        "socket.io": ">= 1.0",
+        "pty.js": "0.2.4"
+    },
+    "engines": { "node": ">= 0.10.30" },
+    "os" : [ "darwin", "linux" ],
+    "scripts": {"start": "node server.js"}
+}
