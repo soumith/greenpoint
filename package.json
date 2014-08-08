@@ -15,6 +15,7 @@
     "license" : "MIT License",
     "main" : "index.js",
     "dependencies": {
+        "express" : ">= 3.0",
         "socket.io": ">= 1.0",
         "pty.js": "0.2.4"
     },
