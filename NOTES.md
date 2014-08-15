@@ -1,0 +1,3 @@
+- allow new image/video/audio windows to break-away into separate windows
+- pop out existing js-windows into window (terminal, image, video, audio etc.)
+- config file, look up in this order: ~/.greenpoint | /usr/local/etc/greenpoint | /etc/greenpoint

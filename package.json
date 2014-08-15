@@ -15,9 +15,10 @@
     "license" : "MIT License",
     "main" : "index.js",
     "dependencies": {
-        "express" : ">= 3.0",
+        "express" : "== 3.0",
         "socket.io": ">= 1.0",
-        "pty.js": "0.2.4"
+        "pty.js": "0.2.4",
+        "term.js": "0.0.4"
     },
     "engines": { "node": ">= 0.10.30" },
     "os" : [ "darwin", "linux" ],
